@@ -1,0 +1,261 @@
+body {
+  background: rgb(246, 243, 243);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.container{margin-top: 55px;}
+
+
+
+
+#top {
+  background: black;
+}
+
+#column-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  align-content: center;
+  font-size: 1rem;
+}
+
+#column-1 ul li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+#column-1 ul li a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.bi-person-circle {
+  font-size: 6rem;
+  padding: 1rem;
+  color: rgb(0, 111, 201);
+}
+
+.bi-windows {
+  padding: 1rem;
+  font-size: 2rem;
+  color: rgb(0, 111, 201);
+}
+#info {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+#info-one {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+#info-two {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.bi-key {
+  padding: 1rem;
+  font-size: 2rem;
+  color: rgb(0, 111, 201);
+}
+
+#main-accordion {
+  padding: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.container-row {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  color: rgb(37, 37, 37);
+}
+
+
+
+
+.accordion-body {
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+#microsoft-button {
+  max-width: 180px;
+  max-height: 30px;
+  background: rgb(0, 111, 201);
+  padding: 4px;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 3px;
+}
+
+#background-image {
+  padding: 0%;
+  margin-right: 0%;
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+
+  max-width: 100%;
+  height: auto;
+}
+
+#laptop-image{
+  width: 100px;
+  height: 100px;
+  padding: 0.3rem;
+}
+#second-row{
+  display:flex;
+  
+
+}
+
+#laptop-j{
+  padding: 1rem;
+ opacity: 80%;
+ text-decoration: none;
+}
+
+#view-details{
+  text-decoration: none;
+  list-style: none;;
+}
+
+#laptop-j a{
+  text-decoration: none;
+
+}
+#laptop-j a:hover{
+ text-decoration: underline;
+}
+.bi-plus-circle{
+  font-size: 60px;
+  margin-left: 1rem;
+  
+  
+}
+
+#second-row-last-part{
+  display: flex;
+  padding-top:2px;
+  margin-top: 1rem;
+}
+
+.row{
+  padding-top: 1rem;
+}
+
+#human-image{
+  
+  margin-right: 0%;
+  margin-top: 0%;
+  height: 70%;
+  width: 90%;
+  object-fit:fill;
+  max-width: 100%;
+  height: auto;
+}
+.col{
+  padding-top: 1rem;
+}
+
+#security-list a{
+
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  padding: 1px;
+  margin-top: 10px;
+  align-items: center;
+  
+}
+
+.bi-lock, .bi-check-circle, .bi-gear{
+ margin-right: 10px;
+  font-size: 30px;
+  padding-right:5px ;
+}
+
+#payment-options{
+  margin-top: 1rem;
+display: grid;
+grid-template-columns: 9fr 3fr;
+grid-column-end: auto;
+}
+
+
+.card-body a{
+  text-decoration: none;
+  color:rgb(42, 42, 42);
+    
+}
+
+
+#first-animation{
+  object-fit:fill;
+  align-content: center;
+  width: 250px;
+  height: 150px;
+}
+
+#first-animations{
+  object-fit:fill;
+  align-content: center;
+  width: 250px;
+  height: 150px;  
+
+}
+
+
+#first-animations:hover{
+  transform:rotateY(60deg)
+}
+#learn-more{
+  color: blue;
+ /* background: black; */
+ margin-bottom: 100px;
+ margin-top: 100px;
+}
+
+.card-text{
+  font-size: 12px;
+  
+}
+.card{
+  
+  height: 460px;
+}
+
+
+
+
+ .row a{text-decoration: none;
+  font-size: 11px;
+  color: rgb(117, 116, 116);
+}
+
+
+
+.row a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#right-footer{
+ 
+  text-align: right;
+  
+}
+
+
+
